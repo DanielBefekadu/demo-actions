@@ -1,7 +1,9 @@
 name: test
 
-on: 
-  workflow_dispatch:
+
+on:
+ push:
+    branches: [ "main" ]
 
 env:
   cloud: GCP
