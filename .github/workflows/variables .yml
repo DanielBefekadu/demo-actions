@@ -13,4 +13,4 @@ jobs:
    steps:
      - name: "check context cariables " 
        run: |
-         echo: " repo : ${{github.repository}}"
+         echo " repo : ${{github.repository}}"
