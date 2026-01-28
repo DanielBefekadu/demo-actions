@@ -14,5 +14,5 @@ jobs:
      - name: "check context cariables " 
        run: |
          echo " repo : ${{github.repository}}"
-         echo " say hi to  : ${{ vars.var }}
+         echo " say hi to  : ${{ vars.var }} "
          
