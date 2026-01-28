@@ -1,0 +1,15 @@
+name: test
+
+on: 
+  workflow_dispatch:
+
+env:
+  cloud: GCP
+
+jobs:
+  test_variables:
+   runs-on: ubuntu-20.04
+   steps:
+     - name: "check context cariables " 
+       run: | 
+         echo: " repo : ${{github.repository}}"
