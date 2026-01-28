@@ -15,7 +15,7 @@ on:
         required: true
 jobs:
   add_number:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: add
