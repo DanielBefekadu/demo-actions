@@ -9,8 +9,8 @@ env:
 
 jobs:
   test_variables:
-   runs-on: ubuntu-20.04
+   runs-on: ubuntu-latest
    steps:
      - name: "check context cariables " 
-       run: | 
+       run: |
          echo: " repo : ${{github.repository}}"
