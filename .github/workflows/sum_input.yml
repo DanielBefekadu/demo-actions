@@ -1,16 +1,18 @@
 name: sum
 
 on:
-  workflow_dispatch:
+  workflow_call:
 
     inputs:
       number1: 
         description: 'first number'
+        type: number
         default: '0'
         required: true
 
       number2: 
         description: 'second number'
+        type: number
         default: '0'
         required: true
 jobs:
